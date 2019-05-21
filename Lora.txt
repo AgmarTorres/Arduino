@@ -1,0 +1,62 @@
+Lora
+
+	IoT
+		Dispositivos conectados a rede enviando e recebendo dados, sem intervenção humana
+
+			Conectividade, dispositivos e dados.
+			
+	Tipos de redes: M2M, crétidos e veículos
+				
+	redes locais: Wi-fi  Zigbee, bluetoth
+	
+	LPWAN: 	
+		Longo alcance
+		Baixa taxa de dados e consumo de energia
+		Intervalo entre as transmissões
+	
+		Boa divisão de tempo: Não repita a transmissão continuamente.
+		
+		Não da pra transmitir video, voz. Checksum de integridade dos dados também.
+		
+		Frequências: ISM( região de frequências disponveis
+			Faixa: 902 a 928 MHz
+		
+		A regulamentação é feita pela Anatel.
+	
+	
+	
+	Tecnologia lora:
+	
+			Caracteristicas 
+				Longo alcance,
+				baixo custo, 
+				simplicidade de aplicação
+				
+			Topologia: 
+			Lora One: Protocolo de comunicação definida
+				Devices que comunica com gateways, que comunicam com o servidor de rede, e o servidor de rede comunica com servidor de aplicação(leito de luz, água). 
+			
+			
+		A comunicação é toda feita por cima de IP:
+		
+			sEGURANÇA É INTRINCECA, UTILIZA duas chaves de criptografia
+				Chave de aplicação: Senha que vai proteger o dado 
+					Cripografa novamente.
+					Tudo isso faz parte do dataFrame
+					
+		Os pacotes vão até 240Bytes de dados
+		10, 15 km, é até 5Bytes
+		
+		Gatways: máquinas(normalmente Linux) que recebem dados dos devices, e mandam para o servidor
+		
+		
+		Devices:
+			RN2903 Lora
+				Comunica com quase qualquer tecnologia, arduino, raspberry
+				
+			Uso do lora sem rádio
+			
+			Kit de receptor MQTT que é uma placa. Sempre que recebe ele encaminha para a nuvem.
+			
+			Placa base Lora
+		

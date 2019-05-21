@@ -1,0 +1,57 @@
+Eletricidade, tem haver com movimento de eletróns. 
+
+Componentes Eçetrônicos: Controle do dmovimento dos eletros, ou corrente eletrica..
+
+
+Circuitos eletrônicos: Os eletróns saem da fonte. 
+	Passam por condutores, ai os eletróns movimento a carga(motor, led), volta para o condutor 
+	Circuito: fonte + condutores+ carga.
+	
+	Series de regras e símbolos
+	
+	Diagrama esquemático: Google, simbologia eletrônica (CEI)
+	
+		Fonte, fio, resistor, led, e volta para a fio
+	
+	Principais componentes, como desenhar os componentes
+	
+		Fonte: -----| |---- : pilha ou batéria
+					  |	
+					  
+		o trancinho pequeno é o negativo, e otracinho grande é o positivo.
+		
+		Fonte transformadora: 
+		Fonte de corrente Alternada:
+		
+		Resistor: Básico de todos, controla a corrente eletrica. Ele ele cobra o preço que é esquentar.
+		
+		resistencia é medida em ohm.
+		
+		Necessário de uma tabela para saber quais números elas representam
+		
+		
+		o final tem sempre uma faixa dourada
+		
+		Potenciametros: resistores que você consegue variar a resistência
+			Pista de gráfte de lapis
+			
+	Capacitor: consegue armazenar energia. capaz de carregar e descarregar de um jeito bem mais rápido. 
+	
+	uF:  micro Farad()
+	azul, capacitor ceramico
+	marrom: capacitor de poliestero
+	
+	Relé:
+		Mistura eletricidade com movimento. 
+			Relé como se fosse um interruptor, você coloca energia elétrica.
+				a bobina é como se fosse um imã, ela encosta as partes metálicas. Dando assim, contato.
+				
+		
+		Semicondutores:
+			Diodo: Funciona como uma válvula, uma porteira de um único lado. (exemplo de enforca gato só para por um lado , pelo outro ela trava)
+			
+			A faixa por cor diferente é o lado negativo.
+				Led:Diodo emissor de Luz. Negativo é a perna curta
+				
+			Transistor: você cnsegue ligar e desligar coisas
+			
